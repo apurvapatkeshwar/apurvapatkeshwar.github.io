@@ -1090,19 +1090,20 @@ header {
 header .row {
 	position: relative;
 	min-height: 66px;
+	margin: 0;
 }
 header .top-bar {
 	display: block;
 	background: rgba(0, 0, 0, 0.8);
-	min-width: 180px;
+	min-width: 145px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
+	left: 0;
 	top: 0;
 }
 header .logo {
 	float: left;
-	margin-left: 25px;
+	margin-left: 13px;
 	position: relative;
 }
 header .logo a {
@@ -1127,8 +1128,7 @@ header .logo a {
 	float: left;
 	width: 40px;
 	height: 40px;
-	margin-left: 20px;
-	margin-top: 13px;
+	margin: 13px;
 	display: block;
 	position: relative;
 }
@@ -1254,32 +1254,6 @@ header .logo a {
 .main-navigation li.current > a {
 	background: none;
 	color: #00F7FF;
-}
-
-/**
- * responsive:
- * header styles
- * --------------------------------------------------------------- 
- */
-@media only screen and (max-width:1024px) {
-	header .top-bar {
-		left: 60px;
-	}
-}
-@media only screen and (max-width:768px) {
-	header .top-bar {
-		left: 50px;
-	}
-}
-@media only screen and (max-width:600px) {
-	header .top-bar {
-		left: 35px;
-	}
-}
-@media only screen and (max-width:400px) {
-	header .top-bar {
-		left: 25px;
-	}
 }
 
 
