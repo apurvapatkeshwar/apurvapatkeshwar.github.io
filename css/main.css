@@ -1349,13 +1349,9 @@ header .logo a {
 .intro-content .button:hover, .intro-content .button:focus {
 	border-color: #00C5CC;
 }
-.intro-content .button::after {
-	display: inline-block;
-	content: "\f107";
-	font-family: fontAwesome;
-	font-size: 1.6rem;
+.intro-content .button i {
+	font-size: 1.4rem;
 	line-height: inherit;
-	text-align: center;
 	position: relative;
 	left: 1.2rem;
 }
